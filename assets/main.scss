@@ -46,6 +46,7 @@ body {
   margin: 0;
   padding: 0;
   overflow-x: hidden;
+  background: var(--osi-bg);
 }
 
 body.site-shell {
@@ -122,9 +123,9 @@ p {
 }
 
 .site-header {
-  position: sticky;
-  top: 0;
+  min-height: 0;
   z-index: 50;
+  border-top: 0;
   border-bottom: 1px solid var(--osi-border);
   background: var(--osi-surface);
 }
@@ -256,6 +257,7 @@ p {
 
 .page-content {
   padding: 2.2rem 0 3rem;
+  background: var(--osi-bg);
 }
 
 .content-shell > * {
